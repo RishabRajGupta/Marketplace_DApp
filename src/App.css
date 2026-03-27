@@ -1,0 +1,95 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Glass Card */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Product Image */
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Buttons */
+.button {
+  background: linear-gradient(45deg, #6366f1, #4f46e5);
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background: #4338ca;
+}
+
+/* Inputs */
+.input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Wallet */
+.wallet {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wallet-connected {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+/* Status */
+.available {
+  color: #22c55e;
+}
+
+.sold {
+  color: #ef4444;
+}
